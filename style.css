@@ -8,6 +8,7 @@ body {
     align-items: center;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
 }
 
 .Top-container,
@@ -25,6 +26,7 @@ body {
     background-color: #587c1c; 
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .Header {
