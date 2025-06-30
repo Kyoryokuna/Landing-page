@@ -1,0 +1,131 @@
+body {
+    min-height: 100vh;
+    min-width: max-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /*Gotta set the font-family later*/
+}
+
+.Top-container,
+.Secondary-container,
+.Centre-container,
+.Third-container,
+.Footer-container {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    max-height: 300px;
+}
+
+.Top-container {
+    background-color: #587c1c; 
+    justify-content: center;
+    align-items: center;
+}
+
+.Header {
+    width: 100%;
+    background-color: #587c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    padding: 15px 80px
+}
+
+.Logo {
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.Links {
+    display: flex;
+    font-size: 18px;
+    gap: 42px;
+}
+
+.Top-content {
+    display: flex;
+    gap: 80px;
+}
+
+.Greeting-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Greeting {
+    font-weight: 900;
+    font-size: 28px;
+    max-width: 300px;
+    margin-bottom: 8px;
+}
+
+.Text {
+    max-width: 300px
+}
+
+.Secondary-container {
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    gap: 18px;
+}
+
+.Title {
+    font-size: 25px;
+    font-weight: 700
+}
+
+.Facts-container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.Fact {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    gap: 8px;
+}
+
+.Centre-container {
+    background-color: #455c34; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.Troll {
+    width: 400px;
+    align-self: flex-end;
+}
+
+.Quote {
+    color: white;
+    width: 400px;
+}
+
+.Footer-container {
+    display: flex;
+    max-height: 95px;
+    background-color: #587c1c;  
+    justify-content: center;
+    align-items: center;
+}
+
+.Illustration  {
+    text-align: center;
+}
+
+img {
+    border-radius: 12px;
+}
