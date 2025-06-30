@@ -104,11 +104,11 @@ body {
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    gap: 15px;
 }
 
 .Troll {
     width: 400px;
-    align-self: flex-end;
 }
 
 .Quote {
